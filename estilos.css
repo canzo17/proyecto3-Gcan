@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    border: 4px solid green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem; /*1rem == 16px -- 1rem == 10px cuando agregas font-size 62.5%*/
+    background-color: red;
+  }
+  .contenedor {
+    padding: 20px;
+    border: 1px solid blue;
+    background-color: white;
+  }
+  #boton {
+    background-color: transparent;
+    border: 1px solid #000000;
+  }
